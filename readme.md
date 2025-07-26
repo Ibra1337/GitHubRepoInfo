@@ -1,22 +1,22 @@
-# 📘 GitHub Repository Info API
+# GitHub Repository Info API
 
 This Spring Boot application provides a RESTful API to retrieve **non-forked GitHub repositories** for a given user, including **branch names** and their **last commit SHA**.
 
 ---
 
-## ✅ Features
+##  Features
 
-- ✅ Retrieve **non-forked** repositories for a given GitHub username
-- ✅ Return for each repository:
+- Retrieve **non-forked** repositories for a given GitHub username
+  - Return for each repository:
     - Repository **name**
     - Owner **login**
     - **Branch name** and last **commit SHA**
-- ❌ Return `404 Not Found` with a clear message when the user does not exist
-- 🔗 Uses [GitHub REST API v3](https://docs.github.com/en/rest)
+-  Return `404 Not Found` with a clear message when the user does not exist
+-  Uses [GitHub REST API v3](https://docs.github.com/en/rest)
 
 ---
 
-## 🔌 API Endpoint
+##  API Endpoint
 
 ### `GET /api/v1/git/{username}`
 
@@ -52,7 +52,7 @@ This Spring Boot application provides a RESTful API to retrieve **non-forked Git
 
 ---
 
-## ▶️ How to Run the Application
+## How to Run the Application
 
 ### Prerequisites:
 
